@@ -1,4 +1,4 @@
-from EmotionDetectorApp.emotion_detector import EmotionDetector
+from EmotionDetector.interface import EmotionDetector
 from fer import Video, FER
 
 class FERWrapper(EmotionDetector):
