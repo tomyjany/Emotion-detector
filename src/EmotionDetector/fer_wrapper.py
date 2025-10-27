@@ -3,7 +3,7 @@ from fer import Video, FER
 
 class FERWrapper(EmotionDetector):
     def __init__(self):
-    self.detector = FER(mtcnn=True)          # MTCNN face detector (more accurate)
+        self.detector = FER(mtcnn=True)          # MTCNN face detector (more accurate)
 
     def detect_emotion(self, path: str) -> dict:
         video = Video(path)
