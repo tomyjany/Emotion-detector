@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "EmotionDetectorExperiment"
+version = "1.0.0"
+authors = [
+    {name = "Tomas Janovec", email = "tomas.janovec@tul.cz"},
+]
+description = "This package is for for experiemnting with emotion detection models."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "BSD-3-Clause"
+dependencies = [
+  "fer==22.5.1",
+  "opencv-python",
+  "mtcnn",
+  "tensorflow>=2.10",
+  "moviepy==1.0.3",
+  "opencv-python",
+  "mtcnn",
+  "tensorflow>=2.10",
+  "moviepy==1.0.3",
+]
