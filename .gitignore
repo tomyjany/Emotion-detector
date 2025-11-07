@@ -1,4 +1,5 @@
 .venv*
-output
+output/*
+!output/.gitkeep
 *.mp4
 *.egg-info
