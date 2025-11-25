@@ -22,4 +22,6 @@ dependencies = [
   "mtcnn",
   "tensorflow>=2.10",
   "moviepy==1.0.3",
+  "streamlit",
+  "pandas"
 ]
