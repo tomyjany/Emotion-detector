@@ -23,5 +23,6 @@ dependencies = [
   "tensorflow>=2.10",
   "moviepy==1.0.3",
   "streamlit",
-  "pandas"
+  "pandas",
+  "rich"
 ]
