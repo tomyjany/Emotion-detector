@@ -5,3 +5,4 @@ analysis_output/*
 !analysis_output/.gitkeep
 *.mp4
 *.egg-info
+__pycache__/
